@@ -1,7 +1,7 @@
 // pages/contractDetails.js
 import { useEffect, useState } from 'react';
 import { ethers } from 'ethers';
-import { fetchContractABI } from './contractUtils';
+import { fetchContractABI } from '../utils/contractUtils';
 
 export default function ContractDetails() {
   const [contractAddress, setContractAddress] = useState('');
